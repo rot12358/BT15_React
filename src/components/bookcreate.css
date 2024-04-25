@@ -1,0 +1,44 @@
+.from-create {
+    background-color: rgb(58, 58, 131); /* Màu nền */
+    color: #fff; /* Màu chữ */
+    padding: 20px; /* Khoảng cách phần nội dung từ lề */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Chiều rộng 100% của trang */
+}
+.Title{
+    color: #000000;
+    font-weight: 600;
+}
+.title input{
+    width:1250px;
+    height: 25px;
+    border: 1px solid #000000;
+    border-radius:5px ;
+}
+.des input {
+    width: 1250px;
+    border: 1px solid #000000;
+    height: 25px;
+    border-radius:5px ;
+}
+
+  .Create {
+    background-color: #4CAF50; /* Màu nền */
+    border: none; /* Loại bỏ viền */
+    color: white; /* Màu chữ */
+    padding: 15px 32px; /* Kích thước đệm */
+    text-align: center; /* Canh giữa chữ */
+    text-decoration: none; /* Loại bỏ gạch chân */
+    display: inline-block; /* Hiển thị là một khối */
+    font-size: 16px; /* Kích thước chữ */
+    margin: 4px 2px; /* Khoảng cách giữa các nút */
+    cursor: pointer; /* Con trỏ khi di chuột qua */
+    border-radius: 10px; /* Bo tròn góc */
+    transition-duration: 0.4s; /* Thời gian chuyển đổi */
+}
+
+.Create:hover {
+    background-color: #45a049; /* Màu nền khi di chuột qua */
+    color: white; /* Màu chữ khi di chuột qua */
+}

@@ -1,0 +1,10 @@
+.item {
+    border: 1px solid #000;
+}
+.item h2{
+    text-align: center;
+}
+.item p{
+    font-size: 18px;
+    text-align: center;
+}
