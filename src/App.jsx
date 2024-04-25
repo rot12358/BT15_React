@@ -3,8 +3,6 @@ import BookList from "./components/BookList";
 import {  useEffect} from "react";
 import useBookContext from "./hook/useBookContext";
 import "./app.css";
-
-
 const App = () => {
   const{getAllBooks} = useBookContext();
       useEffect( async () => {
@@ -22,5 +20,4 @@ const App = () => {
     </div>
   );
 };
-
 export default App;

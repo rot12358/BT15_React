@@ -10,14 +10,12 @@ const BookShow = ({book}) => {
       onEdit(id,term);
       setIsEdit(false);
     };
-    
   return (
     <div className="item">
 
       <div className='image'>
           <img src={image} alt="" />
       </div>
-      
         {isEdit && <BookEdit book={book} onEdit={handleEdit}/>}
         {
           !isEdit && 
